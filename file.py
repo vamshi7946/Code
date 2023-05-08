@@ -1,0 +1,10 @@
+fp = open("file.txt","w")
+fp.write("Hello! My self Vamshi, studying in CBIT")
+fp.write("\nHello! My self Vamshi, studying in MGIT")
+fp.close()
+fp = open("file.txt" , "r")
+v = fp.readline()
+while v!='':
+    print(v)
+    v=fp.readline()
+fp.close()
