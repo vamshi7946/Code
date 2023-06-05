@@ -17,3 +17,4 @@ System.out.println("reverese number is: "+rev);
 sc.close();
 }
 }
+vamshi
